@@ -1,13 +1,25 @@
 {
   "name": "vite-plugin-mockjs-server",
-  "private": false,
   "version": "0.0.1",
+  "author": "pangyunchuan",
+  "license": "MIT",
   "main": "./dist/dist.umd.js",
   "module": "./dist/dist.es.js",
   "types": "types/lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangyunchuan/vite-plugin-mockjs-server"
+  },
+  "description": "用于vite dev时，进行模拟 api",
   "keywords": [
-    "vite-plugin"
+    "mockjs",
+    "vite-plugin",
+    "mock-api",
+    "api",
+    "vite"
   ],
+  "files": [],
+  "bin": {},
   "scripts": {
     "build": "vite build"
   },
