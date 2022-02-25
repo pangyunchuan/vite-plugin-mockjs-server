@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-mockjs-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "pangyunchuan",
   "license": "MIT",
   "main": "./dist/dist.umd.js",
@@ -18,7 +18,11 @@
     "api",
     "vite"
   ],
-  "files": [],
+  "files": [
+    "dist",
+    "lib",
+    "types/lib"
+  ],
   "bin": {},
   "scripts": {
     "build": "vite build"
